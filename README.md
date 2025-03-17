@@ -1,3 +1,5 @@
+![gemma-3_2 original](https://github.com/user-attachments/assets/a79797dd-116b-43e0-bc4b-5977e03d8f59)
+
 # Gemma 3 Multimodal Chat Interface
 
 This project provides a multimodal chat interface powered by the **Gemma 3** model, capable of handling text, image, and video inputs. The interface allows users to interact with the model using natural language queries, and it supports advanced features like video understanding and OCR (Optical Character Recognition). The system is built using **Gradio** for the user interface and **Hugging Face Transformers** for model inference.
