@@ -19,7 +19,7 @@ This project provides a multimodal chat interface powered by the **Gemma 3** mod
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/gemma3-multimodal-chat.git
+   git clone https://github.com/prithivsakthiur/gemma3-multimodal-chat.git
    cd gemma3-multimodal-chat
    ```
 
