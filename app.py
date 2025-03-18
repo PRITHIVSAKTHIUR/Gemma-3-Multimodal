@@ -322,6 +322,7 @@ demo = gr.ChatInterface(
         ],
         [{"text": "@gemma3 Explain the Image", "files": ["examples/3.jpg"]}],
         [{"text": "@video-infer Explain the content of the Advertisement", "files": ["examples/videoplayback.mp4"]}],
+        [{"text": "@gemma3 Which movie character is this?", "files": ["examples/9999.jpg"]}],
         ["@gemma3 Explain Critical Temperature of Substance"],
         [{"text": "@gemma3 Transcription of the letter", "files": ["examples/222.png"]}],
         [{"text": "@video-infer Explain the content of the video in detail", "files": ["examples/breakfast.mp4"]}],
@@ -336,7 +337,7 @@ demo = gr.ChatInterface(
     type="messages",
     description="# **Gemma 3 `@gemma3, @video-infer for video understanding`**",
     fill_height=True,
-    textbox=gr.MultimodalTextbox(label="Query Input", file_types=["image", "video"], file_count="multiple", placeholder="@gemma3 for multimodal, @video-infer for video !"),
+    textbox=gr.MultimodalTextbox(label="Query Input", file_types=["image", "video"], file_count="multiple", placeholder="Tag--> @gemma3 for multimodal, @video-infer for video !"),
     stop_btn="Stop Generation",
     multimodal=True,
 )
